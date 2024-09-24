@@ -67,6 +67,14 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.robotics.urdf-importer": {
+      "version": "file:./URDF-Importer-main/com.unity.robotics.urdf-importer",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
+    },
     "com.unity.settings-manager": {
       "version": "2.0.1",
       "depth": 2,
