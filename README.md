@@ -1,3 +1,12 @@
-Sprint 2:
-i.  Import URDF file to simulate robot.
-ii. Added the repository to github from desktop.
+<b>Sprint 1:</b> </br>
+<ul>
+<li>Add scene with a cube, sphere and cylinder..</li>
+<li>Define each object as a rigid body with tight bounding colliders that affected by gravity and collides with each other .</li>
+</ul>
+
+
+<b>Sprint 2:</b> </br>
+<ul>
+<li>Import URDF file to simulate robot.</li>
+<li>Added the repository to github from desktop.</li>
+</ul>
