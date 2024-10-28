@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "CSE_5369.sln"
+    "dotnet.defaultSolution": "CSE5369-GH.sln"
 }

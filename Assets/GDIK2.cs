@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GDIK : MonoBehaviour
+public class GDIK2 : MonoBehaviour
 {
     // Array to store joint angles
     public float[] jointAngles;
@@ -8,6 +8,8 @@ public class GDIK : MonoBehaviour
     // Limits for joint angles (from the URDF)
     public float[] jointLimitsLower = new float[] { -3.05433f, -1.5708f, -1.397485f, -3.05433f, -1.74533f, -2.57436f };
     // public float[] jointLimitsLower = new float[] { -175f, -90f, -80f, -175f, -100f, -147.5f };
+    public float[] jointLimitsLower11 = new float[] { -175f, -90f, -80f, -175f, -100f, -147.5f };
+
     public float[] jointLimitsUpper = new float[] { 3.05433f, 0.640187f, 1.5708f, 3.05433f, 1.91986f, 2.57436f };
     // public float[] jointLimitsUpper = new float[] { 175f, 36.7f, 90f, 175f, 110f, 147.5f };
 
@@ -22,7 +24,7 @@ public class GDIK : MonoBehaviour
     //public float orientationThreshold = 0.01f;
 
     // Reference to the draggable target (sphere) to track
-    public GameObject targetDot;
+    // public GameObject targetDot;
     
     private float[] previousError;
 
@@ -49,17 +51,15 @@ public class GDIK : MonoBehaviour
 
     void Update()
     {
-        // Actively track the target dot
-        if (targetDot != null)
-        {
-            // Get the position of the target dot
-            Vector3 targetPosition = targetDot.transform.position;
+        
+        // Get the position of the target dot
+        // Vector3 targetPosition = targetDot.transform.position;
 
-            // Perform GDIK to follow the target
-            Debug.Log("update---->");
-            Debug.Log(targetPosition);
-            PerformGDIK(targetPosition);
-        }
+        // Perform GDIK to follow the target
+        Debug.Log("update---->");
+        Vector3 targetPosition = new Vector3(0.138f, 0.237f, 0.228f);
+        PerformGDIK(targetPosition);
+        
     }
 
     void PerformGDIK(Vector3 targetPosition)
