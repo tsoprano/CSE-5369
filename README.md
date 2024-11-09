@@ -30,5 +30,5 @@ https://mavsuta-my.sharepoint.com/:f:/r/personal/sxt4279_mavs_uta_edu/Documents/
 <li>SprintFive.scene is the correct file, not Sprint5.scene!</li>
 <li>Camera not used for this sprint.</li>
 <li>Cube behind an obstacle, cylinder in this case, is the goal object.</li>
-<li>Used Grid making, Probabilistic path finding, the A* to creat the path, then used IK to reach the goal point.</li>
+<li>Used Grid making, Probabilistic path finding, then A* to create the path, then used IK to reach the goal point.</li>
 </ul>
