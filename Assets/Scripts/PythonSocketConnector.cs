@@ -13,7 +13,7 @@ public class PythonSocketConnector : MonoBehaviour
 
     bool IsInterrupted = false;
     readonly int ThreadTimeout = 100;
-    readonly int MaxPacketSize = 1400;
+    readonly int MaxPacketSize = 2400;
     readonly string PacketSeparator = "<<EOM>>";
 
     ConcurrentQueue<byte[]> rgbQueue;

@@ -13,7 +13,7 @@ import traceback
 INTERRUPT = False
 THREAD_LOCK = threading.Lock()
 OUTGOING_BUFFER = None
-CHUNK_SIZE = 1400
+CHUNK_SIZE = 2400
 
 # image defaults
 IMAGE_WIDTH = 1280
@@ -50,8 +50,8 @@ def rgb_func(ipaddr='127.0.0.1', port=65400):
             nparr = np.frombuffer(frame_data, np.uint8)
             frame = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
             # display the image
-            # cv2.imshow('RGB Image', frame)
-            # cv2.waitKey(1)
+            cv2.imshow('RGB Image', frame)
+            cv2.waitKey(1)
             # save the image
             with THREAD_LOCK:
                 global RGB_FRAME

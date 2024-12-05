@@ -31,7 +31,7 @@ public class GDIK_Astar : MonoBehaviour
 
     // Variables for object detection data
     private Vector3 objectPosition;
-    private List<Vector3> plannedPath = null;
+    // private List<Vector3> plannedPath = null;
 
     // Obstacle reference
     public Transform wall;
