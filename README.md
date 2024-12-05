@@ -24,3 +24,11 @@ https://mavsuta-my.sharepoint.com/:f:/r/personal/sxt4279_mavs_uta_edu/Documents/
 <li>Added RGBD camera to the scene.</li>
 <li>Localize a red sphere to an estimated 3D Cartesian pose, and move the robot end-effector to it using FK and IK</li>
 </ul>
+
+<b>Sprint 5:</b> </br>
+<ul>
+<li>SprintFive.scene is the correct file, not Sprint5.scene!</li>
+<li>Camera not used for this sprint.</li>
+<li>Cube behind an obstacle, cylinder in this case, is the goal object.</li>
+<li>Used Grid making, Probabilistic path finding, then A* to create the path, then used IK to reach the goal point.</li>
+</ul>
