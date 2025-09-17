@@ -1,3 +1,10 @@
+<b> Output: </b>
+
+![](https://github.com/tsoprano/CSE-5369/blob/main/unitydemogithub.jpg)
+![](https://github.com/tsoprano/CSE-5369/blob/main/demo.gif)
+
+
+
 <b>Demo video folder:<b> </br>
 https://mavsuta-my.sharepoint.com/:f:/r/personal/sxt4279_mavs_uta_edu/Documents/CSE%205369%20-%20Demo%20Videos?csf=1&web=1&e=Mqok9Z
 
