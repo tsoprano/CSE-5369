@@ -48,13 +48,13 @@ https://mavsuta-my.sharepoint.com/:f:/r/personal/sxt4279_mavs_uta_edu/Documents/
 <b>Final project:</b> </br>
 <ul>
   <li>ProjFinal.scene is the correct file, not FinalProject.scene!</li>
-  <li>Yellow and Red objects are detected using camera, then the robot arm sorts and places them in their respactive areas.</li>
+  <li>Yellow and Red objects are detected using camera, then the robot arm sorts and places them in their respective areas.</li>
   <li>
   <ul>Main files are: 
       <li>ProjFinal.scene</li>
       <li>GDIK_proj.cs, ObjectLabel.cs</li>
       <li>Sphere.prefab</li>
-      <li>opencv_proj</li>
+      <li>opencv_proj.py</li>
     </ul>
   </li>
   <li>Please ignore files inside "Redundant files" directory.</li>
