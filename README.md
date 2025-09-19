@@ -1,5 +1,10 @@
 <b> Output: </b>
 
+1. Final project (detect and sort):
+![](https://github.com/tsoprano/CSE-5369/blob/main/UnityDemo1.gif)   
+
+
+2. Obstacle avoidance:
 ![](https://github.com/tsoprano/CSE-5369/blob/main/unitydemogithub.jpg)
 ![](https://github.com/tsoprano/CSE-5369/blob/main/demo.gif)
 
